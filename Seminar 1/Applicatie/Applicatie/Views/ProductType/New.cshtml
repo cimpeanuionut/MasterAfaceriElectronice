@@ -1,0 +1,9 @@
+﻿@model ProductTypeVMDTO
+
+@{ 
+    ViewData["Title"] = "Create a product type";
+}
+
+@{ ViewBag.IsNew = true;}
+
+@await Html.PartialAsync(@"../Shared/Components/_ProductType.cshtml") 
